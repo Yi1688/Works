@@ -26,9 +26,9 @@ custom_file_path:
   #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
-  #variable: source/_data/variables.styl
+  variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -204,7 +204,7 @@ language_switcher: false
 
 footer:
   # Specify the year when the site was setup. If not defined, current year will be used.
-  #since: 2021
+  #since: 2022
 
   # Icon between year and copyright info.
   icon:
@@ -855,13 +855,13 @@ motion:
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
     post_block: fadeIn
-    post_header: fadeInDown
-    post_body: fadeInDown
-    coll_header: fadeInLeft
+    post_header: slideDownIn
+    post_body: slideDownIn
+    coll_header: slideLeftIn
     # Only for Pisces | Gemini.
-    sidebar: fadeInUp
+    sidebar: slideDownBigOut
 
-# Progress bar in the top during page loading.
+# Progress bar in the top during page loading. 进度条在页面加载期间的顶部。
 # For more information: https://github.com/CodeByZach/pace
 pace:
   enable: true
