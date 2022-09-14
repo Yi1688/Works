@@ -15,7 +15,7 @@ categories: Unity
 ```bash
 1、从Pico开发者官网下载Unity XR包，下载后解压。
 2、Unity导入解压好Unity XR包中的json后缀文件
-3、App ID: 填0
+3、App ID: 填0（或者自己在Pico官网中注册开发者获得APP ID）
 4、生成平台改为安卓
 5、Project Settings -> XR Plug-in Management -> 安卓图标下勾选 PicoXR
 ```
